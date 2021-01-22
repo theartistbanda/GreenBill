@@ -1,0 +1,34 @@
+<!-- First time Sign In -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/first_time_"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/first_time_"
+ />
+
+
+<!-- drawable/first_time_.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="411dp"
+android:height="731dp"
+android:viewportWidth="411"
+android:viewportHeight="731"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H411V731H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V731H411V0"
+android:fillColor="#F8F9F8"
+/>
+
+</group>
+
+</vector>
